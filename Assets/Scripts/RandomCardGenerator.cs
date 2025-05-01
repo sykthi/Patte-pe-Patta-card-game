@@ -7,6 +7,7 @@ public class RandomCardGenerator : MonoBehaviour
 
     private CardGenerator _cardGenerator; // Reference To Card Generator Script
 
+    [System.Obsolete]
     private void Start()
     {
         _cardGenerator = FindObjectOfType<CardGenerator>();

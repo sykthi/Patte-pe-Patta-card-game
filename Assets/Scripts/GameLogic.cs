@@ -25,6 +25,7 @@ public class GameLogic : MonoBehaviour
     private player winner;
     private bool _rewardedPlayer;
 
+    [System.Obsolete]
     private void Start()
     {
         _uiRef = UiHandler.Instance;

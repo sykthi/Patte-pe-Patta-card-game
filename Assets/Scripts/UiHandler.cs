@@ -63,6 +63,8 @@ public class UiHandler : MonoBehaviour
             Instance = this;
         }
     }
+
+    [Obsolete]
     private void Start()
     {
         _cardGen = FindObjectOfType<CardGenerator>();
